@@ -32,7 +32,7 @@ public class iplController {
 		return iplser.saveteam(t);
 	}
 	
-	@PutMapping(value="/post")
+	@PutMapping(value="/update")
 	public teams putteam(@RequestBody teams t)
 	{
 		return iplser.updateteam(t);

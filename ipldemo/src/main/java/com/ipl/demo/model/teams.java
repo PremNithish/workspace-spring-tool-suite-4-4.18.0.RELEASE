@@ -8,6 +8,7 @@ public class teams {
 
 	@Id
 	private int teamno;
+	
 	private String teamname;
 	private int wins;
 	private int loses;
