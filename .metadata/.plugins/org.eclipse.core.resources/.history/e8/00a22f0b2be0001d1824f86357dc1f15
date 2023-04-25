@@ -1,0 +1,18 @@
+package com.instagram.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.instagram.demo.service.StudenetService;
+
+@RestController
+public class StudentController {
+
+	@Autowired
+	StudenetService studService;
+	
+	public List<Student> getAllStudents()
+	{
+		studS
+	}
+}

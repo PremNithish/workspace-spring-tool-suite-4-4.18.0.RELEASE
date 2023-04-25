@@ -1,0 +1,12 @@
+package com.instagram.demo.service;
+
+import org.springframework.stereotype.Service;
+import com.instagram.demo.dao.StudentRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Service
+public class StudenetService {
+
+	@Autowired
+	StudentRepository studRepository;
+}
