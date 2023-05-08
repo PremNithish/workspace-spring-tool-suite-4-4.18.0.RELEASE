@@ -7,6 +7,22 @@ public class teams {
 	@Id
 	private int teamno;
 	private String teamname;
+	private String captain;
+	public teams() {
+		super();
+	}
+	public String getCaptain() {
+		return captain;
+	}
+	public void setCaptain(String captain) {
+		this.captain = captain;
+	}
+	@Override
+	public String toString() {
+		return "teams [teamno=" + teamno + ", teamname=" + teamname + ", captain=" + captain + ", wins=" + wins
+				+ ", loses=" + loses + ", points=" + points + "]";
+	}
+	
 	private int wins;
 	private int loses;
 	private int points;

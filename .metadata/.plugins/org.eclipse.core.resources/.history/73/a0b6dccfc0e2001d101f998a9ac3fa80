@@ -1,5 +1,0 @@
-package com.ipl.demo.repository;
-
-public interface iplRepository {
-
-}
